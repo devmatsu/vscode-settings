@@ -1,0 +1,17 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "editor.rulers" : [
+        80,
+        120
+    ],
+    "editor.fontSize" : 16,
+    "editor.parameterHints.enabled" : false,
+    "editor.suggestSelection" : "first",
+    "explorer.confirmDelete" : false,
+    "editor.tabSize" : 2,
+    "explorer.confirmDragAndDrop" : false,
+    "terminal.integrated.fontSize" : 14,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+}

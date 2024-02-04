@@ -1,17 +1,67 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Dracula",
-    "editor.rulers" : [
+    // General settings   
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.5,
+    "editor.tabSize": 2,
+    "editor.rulers": [
         80,
         120
     ],
-    "editor.fontSize" : 16,
-    "editor.parameterHints.enabled" : false,
-    "editor.suggestSelection" : "first",
-    "explorer.confirmDelete" : false,
-    "editor.tabSize" : 2,
-    "explorer.confirmDragAndDrop" : false,
-    "terminal.integrated.fontSize" : 14,
+    "editor.acceptSuggestionOnCommitCharacter": false, // Disables auto-accepting suggestions on character input
+    "editor.acceptSuggestionOnEnter": "on", // Enables auto-accepting suggestions when pressing Enter
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": true,
+    "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.suggestSelection": "recentlyUsed",
+    
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.compactFolders": false,
+    
+    "extensions.ignoreRecommendations": true,
+    "extensions.autoCheckUpdates": true,
+    
+    "files.associations": {
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/node_modules": false,
+    },
+    "files.eol": "\n", // Specifies Unix/Linux-style line endings (LF-Line Feed)
+
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.tabs.enabled": true,
+
+    "window.zoomLevel": 0,
+
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none", // Disables welcome page
+    "workbench.sideBar.location": "right",
+    "workbench.editor.labelFormat": "default",
+
+
+    // JavaScript
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    
+    
+    // ESLint & Prettier settings
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "javascript"
+    ],
+
+    "prettier.requireConfig": true,
 }

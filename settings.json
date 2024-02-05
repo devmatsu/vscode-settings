@@ -14,7 +14,8 @@
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
     "editor.suggestSelection": "recentlyUsed",
-    
+    "editor.experimental.stickyScroll.enabled": false,
+
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
@@ -43,9 +44,9 @@
 
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "default",
     "workbench.startupEditor": "none", // Disables welcome page
     "workbench.sideBar.location": "right",
-    "workbench.editor.labelFormat": "default",
 
 
     // JavaScript
@@ -64,4 +65,7 @@
     ],
 
     "prettier.requireConfig": true,
+    "workbench.activityBar.location": "top",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.maxLineCount": 1,
 }

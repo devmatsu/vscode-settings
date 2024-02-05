@@ -48,7 +48,6 @@
     "workbench.startupEditor": "none", // Disables welcome page
     "workbench.sideBar.location": "right",
 
-
     // JavaScript
     "javascript.suggest.autoImports": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -66,6 +65,5 @@
 
     "prettier.requireConfig": true,
     "workbench.activityBar.location": "top",
-    "workbench.tree.enableStickyScroll": false,
     "editor.stickyScroll.maxLineCount": 1,
 }
